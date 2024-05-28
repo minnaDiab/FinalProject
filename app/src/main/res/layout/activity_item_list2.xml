@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItemListActivity"
+    android:background="#E6E6FA"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewIL"
+        android:layout_width="165dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="30dp"
+        android:text="Item's List"
+        android:textSize="28dp"
+        android:gravity="center" />
+
+    <ListView
+        android:id="@+id/itemsList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="14"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+           android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="Back"/>
+
+
+        <Button
+            android:id="@+id/done"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="Done"/>
+
+    </LinearLayout>
+
+</LinearLayout>

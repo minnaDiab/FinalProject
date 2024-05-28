@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewBill"
+    android:background="#E6E6FA"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="114dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/billNum"
+            android:text="Bill Num"
+            android:textSize="25dp"
+            android:layout_marginTop="30sp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/custNum"
+            android:layout_width="160dp"
+            android:layout_height="71dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="Customer PhoneNum"
+            android:textSize="25dp" />
+
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/theBill"
+        android:layout_width="match_parent"
+        android:layout_height="520dp"
+        android:layout_marginTop="20dp" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:text="The total"
+            android:textSize="25dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_gravity="center"
+            android:text="The date"
+            android:textSize="25dp" />
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center"
+            android:layout_margin="10dp"
+            android:src="@drawable/sign_out" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

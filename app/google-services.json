@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "687956764476",
+    "project_id": "minna-40e54",
+    "storage_bucket": "minna-40e54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687956764476:android:63bfdad636a2862818a039",
+        "android_client_info": {
+          "package_name": "com.example.finalproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqH2epgEAAyM4fLPzuwq1JRzYjo0bbqCo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687956764476:android:9717d02f84b67c8d18a039",
+        "android_client_info": {
+          "package_name": "com.example.testversion"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqH2epgEAAyM4fLPzuwq1JRzYjo0bbqCo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
